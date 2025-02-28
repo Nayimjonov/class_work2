@@ -34,4 +34,3 @@ class ProductSerializer(serializers.Serializer):
 #     price = serializers.DecimalField(max_digits=12, decimal_places=2)
 #     comments = ProductCommentSerializer(many=True, read_only=True)
 #     category = ProductCategorySerializer(read_only=True)
-
