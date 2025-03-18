@@ -35,5 +35,3 @@ class ProductSerializer(serializers.Serializer):
 #     comments = ProductCommentSerializer(many=True, read_only=True)
 #     category = ProductCategorySerializer(read_only=True)
 
-
-
